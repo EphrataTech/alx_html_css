@@ -1,0 +1,203 @@
+/* Header */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root{
+    --LINKSHOVER:#FF6565;
+    --BUTTON-HOVER-OPACITY:0.9;
+}
+/* body{
+    max-width: 100px; 
+     margin: 0  auto; 
+} */
+
+    header{
+        background-image: url(immages/headphones_hero_1\(1\).jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+         /* min-height: 100vh;  */
+    
+    }
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 5em;
+
+} 
+
+ a{
+    text-decoration: none;
+    color:white;
+}
+a:hover,a:active{
+    color: var(--LINKSHOVER);
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+h1,p{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color:palevioletred ;
+    text-transform: capitalize;
+    display: block;
+    margin:50px auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+     display: grid;
+    place-content: center; 
+    border: none;
+    border-radius: 1000px;
+    padding:0.85em 4em;
+    font:inherit; 
+    font-weight: 600;
+}
+button:hover{
+    background-color:var(--LINKSHOVER);
+    opacity: 0.9;
+}
+.parah{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
+    
+}
+
+.logo{
+    padding: 0.5rem;
+    margin-left: 5em;
+    text-transform: capitalize; 
+ }
+.partone{
+    margin-bottom: 20em;
+}
+
+.parttwo {
+    margin-top: 100px;
+}
+
+
+/* What we do */
+.what h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ipsum{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:20px ;
+    margin-bottom: 5em;
+}
+
+.what p :last-child{
+    margin-bottom: 2em;
+
+}
+.ipsum img{
+    margin-bottom: 2em;
+}
+
+/* Our results section */ 
+.results{
+    color: white;
+    background-image: url(immages/headphones_hero_2\(1\).jpg);
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+}
+
+.results h2{
+    text-align: center;
+    margin-bottom: 2em;
+    padding-top: 4em;
+    
+}
+.paragraphs{
+    margin-bottom: 5em;
+}
+/* Pentagon layout */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+/* Each pentagon block */
+.pentagon-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 2em;
+  }
+  
+  /* Pentagon image */
+  .pentagon-wrapper img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  /* Text overlay inside pentagon */
+  .pentagon-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    pointer-events: none;
+  }
+  .pentagon-text h4 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .pentagon-text p {
+    font-size: 0.75rem;
+    margin: 0.3em 0 0;
+  }
+/* contact us */
+
+ #ContactUs h2{
+    text-align: center;
+    margin:5em;
+
+}
+label{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2em;
+    padding: 0;
+}
+
+
+
+
+
+ #contactUs p{
+    margin-bottom: 1.5em;
+}
